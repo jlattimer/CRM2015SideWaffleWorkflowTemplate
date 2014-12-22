@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="CRM2015_7_0_X_WorkflowTemplate..2a26e511-0595-4ea2-94ed-84b09a65b0e3" Version="1.0" Language="en-US" Publisher="Your Name" />
+    <DisplayName>CRM2015_7_0_X_WorkflowTemplate</DisplayName>
+    <Description xml:space="preserve">Dynamics CRM 2015 (7.0.X) Custom Workflow Template</Description>
+    <License>License.txt</License>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[12.0]" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" Path="Output\ItemTemplates" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" Path="Output\ProjectTemplates" />
+  </Assets>
+</PackageManifest>

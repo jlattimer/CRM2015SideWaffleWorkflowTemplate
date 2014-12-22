@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TemplateReport>
+  <ItemTemplates>
+    <ItemTemplate Path="ItemTemplates\JLattimer\Dynamics CRM\Workflow Class\Definitions\CSharp.vstemplate" Name="CRM Workflow Class" Description="Dynamics CRM Workflow Class" ProjectType="CSharp" ProjectSubType="" />
+  </ItemTemplates>
+  <ProjectTemplates>
+    <ProjectTemplate Path="..\CRM2015_7_0_X_WorkflowProject\_Definitions\_project.vstemplate.xml" Name="CRM 2015 (7.0.X) Workflow Project" Description="Dynamics CRM 2015 (7.0.X) Custom Workflow Template" ProjectType="CSharp" ProjectSubType="" />
+  </ProjectTemplates>
+  <Snippets />
+</TemplateReport>
