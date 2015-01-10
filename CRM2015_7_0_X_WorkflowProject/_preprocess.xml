@@ -5,7 +5,7 @@
   Add New Project / Add New Item dialog by setting the value below
   -->
   <TemplateInfo Path="CSharp\YourName\Dynamics CRM"/>
-  <Replacements Include="*.*" Exclude="*.vstemplate;*.csproj;*.fsproj;*.vbproj;*.jpg;*.png;*.ico;_preprocess.xml;_project.vstemplate.xml">
+  <Replacements Include="*.*" Exclude="*.vstemplate;*.fsproj;*.vbproj;*.jpg;*.png;*.ico;_preprocess.xml;_project.vstemplate.xml">
     <add key="CRM2015_7_0_X_WorkflowProject" value="$safeprojectname$"/>
   </Replacements>
 </Preprocess>
